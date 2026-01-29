@@ -1,0 +1,84 @@
+---
+layout: post
+title: "Local USB Drive"
+date: "2026-01-06"
+---
+## Materials Used:
+
+- [Raspberry Pi 1 (Model B 2012)](https://docs.rs-online.com/6403/0900766b8127da4b.pdf)
+- Memory Card
+- Power source
+- Ethernet Cable
+- Laptop
+- USB Drive
+
+## Purpose
+
+The Raspberry Pi serves as a way to connect to the USB drive and allows for any device using the internet to be able to transfer files in and out of the drive. This is an easy, efficient way to privately transfer files from device to device without relying on a third party.
+
+## Process
+
+Ensure Raspberry Pi memory card is flashed with the correct OS. For my model, Raspberry Pi 1 B, I used **Raspberry Pi OS (Legacy) Lite 32x**.
+
+Connect Raspberry Pi to the router via ethernet and connect to power source and let it boot up. Next access the internet through the default gateway. Here ensure that the RPi has a static IP address.
+
+Download PuTTY to connect to the RPi via SSH, entering its IP address.
+
+In the RPi's terminal, enter:  
+```bash
+sudo apt install samba samba-common-bin
+sudo cp /etc/samba/smb.conf ~
+sudo nano /etc/samba/smb.conf
+```
+We will be using samba in order to faciliate this so here set up the file by adding the following to the bottom of the conf file. (note: replace 'malcolm' with the username)
+
+![Add this file](/images/usbpi1.png){: .center-image }
+
+Save then exit and enter:
+```bash
+sudo mkdir -p /media/usbshare
+sudo smbpasswd -a (name of pi)
+sudo systemctl restart smbd
+```
+Save this addition and plug in the USB drive that will store data to the RPi.  
+Enter:  
+```bash
+lsblk -f
+```
+Find the name of the usb, usually sda1.
+```bash
+sudo mount -t vfat /dev/sda1 /media/usbshare
+ls /media/usbshare
+mount | grep sda1
+sudo nano /etc/fstab
+```
+Note that ls /media/usbshare is just to ensure that we can see whats on the device and are accessing the correct device.
+
+To auto mount properly when powered on, we add this to the end of the fstab:
+
+UUID=80CA-8A4E /media/usbshare vfat defaults,uid=1000,gid=1000,umask=000 0 0
+
+Save and exit, then enter:
+```bash 
+sudo systemctl daemon-reload
+sudo umount /media/usbshare
+sudo mount -a
+sudo chown -R name:name /media/usbshare
+sudo chmod -R 775 /media/usbshare
+```
+We have now fully set up the cloud. To access the cloud open file explorer and navigate to \\\192.168.1.x, or the RPi's address that was set earlier.  
+Note: In order to allow remote access on a phone, install an app like Solid Explorer.
+## Product
+![PC File Explore View](/images/usbpi2.png){: .center-image }
+## Skills Used
+- Linux System Administration
+- Network Configuration
+- Samba (SMB) Setup
+- Hardware-Software Integration
+- Problem-Solving & Debugging
+
+<br/><br/>
+
+<br/><br/>
+
+⚠️: This setup is only for local network use. If exposed to the internet, use a firewall or VPN for security.
