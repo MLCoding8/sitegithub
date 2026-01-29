@@ -24,19 +24,19 @@ The PMS sends information about the air quality to our RPi and our RPi interpret
 
 ## Process
 
-![PMS and cord]({{ site.baseurl }}/images/aq1.png){: .center-image }
+![PMS&Cord]({{ site.baseurl }}/images/aq1.png)
 
 Attach the cable to the PMS, then attach the 1.25T to 2.54 convertor to the cable. 
 
-![Here's our code](/images/usbpi16.png){: .center-image }
+![Here's our code]({{ site.baseurl }}/images/aq2.png)
 
 Before proceeding, ensure that the RPi does **not** have a power source.
 
 On the converter, add a jumper cable to pins VCC, GND, RXD, and TXD. VCC carries our positive supply voltage, GND will be connected to ground, and RXD and TXD are for receiving and transmitting data respectively. Attach the cables to the GPIO pins of the RPI in accordance with the layout below. Note that the cable attached to RXD on the convertor should be attached to the TXD pin on the RPi and viceversa.
 
-![Layout](/images/orpi1.png){: .center-image }
+![Layout]({{ site.baseurl }}/images/aq3.png)
 
-![Result](/images/usbpi17.png){: .center-image }
+![Result]({{ site.baseurl }}/images/aq4.png)
 
 Ensure once more that the pins are properly connected. The device is fragile and incorrect wiring can cause permanent damage. 
 
@@ -48,11 +48,11 @@ sudo raspi-config
 
 On the follow screen click 
 
-![Result](/images/usbpi18.png){: .center-image }
+![Result]({{ site.baseurl }}/images/aq5.png)
 
 Next click Serial Port.
 
-![Click](/images/usbpi19.png){: .center-image }
+![Click]({{ site.baseurl }}/images/aq6.png)
 
 For the next prompts, opt to not have a login shell, and then select yes to enable the serial port hardware. Now select click OK then Finish.
 
@@ -75,7 +75,7 @@ sudo reboot
 
 Ensure that the PMS is powered on. Listen to the box and you will hear a gentle fan. If no fan can be heard, ensure that there is the expected voltage drop from VCC to GND. I used a multimeter, set to 20V, and touched the exposed square sections on the end closest to the converter.
 
-![multimeter](/images/multimeter.png)
+![multimeter]({{ site.baseurl }}/images/aq7.png)
 
 Check if our RPi is receiving data. If none is received, you might need to change the rate. In my case, my unit used 9600 baud.
 
@@ -137,11 +137,11 @@ nano pms.py
 
 Here's the code to interpret the monitor and log our results.
 
-![pythonscript](/images/usbpi20.png)
-![pythonscript](/images/usbpi21.png)
-![pythonscript](/images/usbpi22.png)
-![pythonscript](/images/usbpi23.png)
-![pythonscript](/images/usbpi24.png)
+![pythonscript]({{ site.baseurl }}/images/aq8.png)
+![pythonscript]({{ site.baseurl }}/images/aq9.png)
+![pythonscript]({{ site.baseurl }}/images/aq10.png)
+![pythonscript]({{ site.baseurl }}/images/aq11.png)
+![pythonscript]({{ site.baseurl }}/images/aq12.png)
 
 and when ran:
 
@@ -149,7 +149,7 @@ and when ran:
 python3 pms.py
 ```
 
-![pythonscript](/images/usbpi25.png)
+![pythonscript]({{ site.baseurl }}/images/aq13.png)
 
 Moving onto creating the plot, we will install a couple libraries.
 
@@ -166,9 +166,9 @@ nano plot_pms.m
 
 Here's the code used to create the graphs.
 
-![matlab](/images/usbpi26.png)
-![matlab](/images/usbpi27.png)
-![matlab](/images/usbpi28.png)
+![matlab]({{ site.baseurl }}/images/aq14.png)
+![matlab]({{ site.baseurl }}/images/aq15.png)
+![matlab]({{ site.baseurl }}/images/aq16.png)
 
 Now run the script:
 
@@ -178,7 +178,7 @@ octave pms_plot.m
 
 And the final product:
 
-![plot](/images/pms_plot.png)
+![plot]({{ site.baseurl }}/images/aq17.png)
 
 ## Skills Demonstrated
 
