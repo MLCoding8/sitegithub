@@ -24,7 +24,7 @@ The PMS sends information about the air quality to our RPi and our RPi interpret
 
 ## Process
 
-![PMS and cord](sitegithub/images/usbpi15.png){: .center-image }
+![PMS and cord](/sitegithub/images/usbpi15.png){: .center-image }
 
 Attach the cable to the PMS, then attach the 1.25T to 2.54 convertor to the cable. 
 
