@@ -4,6 +4,6 @@
 
 layout: home
 ---
-This is running locally, welcome to my site!
+Projects
 ---
 
