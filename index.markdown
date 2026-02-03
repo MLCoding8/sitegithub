@@ -4,6 +4,6 @@
 
 layout: home
 ---
-Projects
+
 ---
 
