@@ -26,7 +26,7 @@ baseurl: "/sitegithub" # the subpath of your site, e.g. /blog
 url: "https://mlcoding8.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  MLCoding8
-
+show_rss: false
 # Build settings
 theme: minima
 plugins:
