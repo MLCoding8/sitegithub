@@ -33,7 +33,7 @@ nano /home/(name)/network_scanner.py
 ```
 Let's now set up our libraries and some variables.
 
-![Here's our code]({{ site.baseurl }}/images/usbpi3.png){: .center-image }
+![Here's our code]({{ site.baseurl }}/images/usbpi3.png)
 
 Ensure that the ROUTER_IP matches actual router IP as well as that LOG_FILE and SCAN_INTERVAL are set properly. Here I am using a text file in my usb drive to store the log. You can add as many known devices as you want.
 
