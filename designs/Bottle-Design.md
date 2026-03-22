@@ -9,22 +9,27 @@ permalink: /designs/bottle-design  # Add this line!
 
 ## Design Process
 
-Sketch the following design using line / spline. Properly dimension ensuring that all lines are black indicating that the design is fully defined.
+Sketch the following design using the line and spline tools. Properly dimension ensuring that all lines are black indicating that the design is fully defined.
 
-![Sketch]({{ site.baseurl }}/images/sketch.png)
+![Sketch]({{ site.baseurl }}/images/bot1.png)
 
+Now extrude around a centreline through the vertical core.
 
+![Extrude]({{ site.baseurl }}/images/bot2.png)
+![Extrude-Complete]({{ site.baseurl }}/images/bot3.png)
 
-here.
+Loft both sharp edges for design cost and user comfortability.
 
-## Debug Information:
-- Current baseurl: {{ site.baseurl }}
-- Generated image path: {{ site.baseurl }}/images/solidworks/bottle/sketch.png
-- Full URL: {{ site.url }}{{ site.baseurl }}/images/solidworks/bottle/sketch.png
+![Extrude]({{ site.baseurl }}/images/bot4.png)
 
-## Test links:
-1. [Test aq1.png]({{ site.baseurl }}/images/aq1.png)
-2. [Test sketch.png]({{ site.baseurl }}/images/solidworks/bottle/sketch.png)
+![Extrude]({{ site.baseurl }}/images/bot5.png)
 
-## Your image:
-![Sketch]({{ site.baseurl }}/images/solidworks/bottle/sketch.png)
+![Extrude]({{ site.baseurl }}/images/bot6.png)
+
+![Extrude]({{ site.baseurl }}/images/bot7.png)
+
+The design is now finished. There are multiple improvements I might add to the design in the future such as adding a screw-on cap to the top or adding a more textured surface to improve ease of grip. 
+
+![Extrude]({{ site.baseurl }}/images/bot8.png)
+
+![Extrude]({{ site.baseurl }}/images/bot9.png)
