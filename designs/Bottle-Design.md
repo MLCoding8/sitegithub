@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Bottle Design"
+title: ""
 permalink: /designs/bottle-design  # Add this line!
 nav_exlude: true
 ---
