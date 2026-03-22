@@ -1,7 +1,8 @@
 ---
 layout: page
-title: "Design 1: Modern Layout"
+title: "Bottle Design"
 permalink: /designs/bottle-design  # Add this line!
+nav_exlude: true
 ---
 
 # Tools:
