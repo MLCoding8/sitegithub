@@ -2,12 +2,10 @@
 layout: page
 title: ""
 permalink: /designs/bottle-design  # Add this line!
-nav_exlude: true
 ---
 
-# Tools:
-
-SolidWorks
+### Bottle 
+(SolidWorks)
 
 ## Design Process
 
