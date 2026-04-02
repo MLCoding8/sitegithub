@@ -1,17 +1,17 @@
 ---
 layout: page
 title: ""
-permalink: /designs/bottle-design  # Add this line!
+permalink: /designs/pencil-holder-design  # Add this line!
 ---
 
-### Bottle 
+### Pencil Holder 
 (SolidWorks)
 
 ## Design Process
 
 Sketch the following design using the line and spline tools. Properly dimension ensuring that all lines are black indicating that the design is fully defined.
 
-![Sketch]({{ site.baseurl }}/images/bot1.png)
+![Sketch]({{ site.baseurl }}/images/penhold (1).png)
 
 Now extrude around a centreline through the vertical core.
 
