@@ -9,29 +9,40 @@ permalink: /designs/pencil-holder-design  # Add this line!
 
 ## Design Process
 
-Sketch the following design using the line and spline tools. Properly dimension ensuring that all lines are black indicating that the design is fully defined.
+The overall process for this design involves creating a waved cone-shaped body by surface lofting two circles at an angle and then creating a mirrored plane that twists. Using intersection curve, the sketch forms for the bars of the pencil holder and we can then loft and revolve the design. Add a base and a solid rim and the design is complete.
 
 ![Sketch]({{ site.baseurl }}/images/penhold (1).png)
-
-Now extrude around a centreline through the vertical core.
-
-![Extrude]({{ site.baseurl }}/images/bot2.png)
-![Extrude-Complete]({{ site.baseurl }}/images/bot3.png)
-
-Loft both sharp edges for design cost and user comfortability.
-
-![Extrude]({{ site.baseurl }}/images/bot4.png)
-
-![Extrude]({{ site.baseurl }}/images/bot5.png)
-
-![Extrude]({{ site.baseurl }}/images/bot6.png)
-
-![Extrude]({{ site.baseurl }}/images/bot7.png)
-
-The design is now finished. There are multiple improvements I might add to the design in the future such as adding a screw-on cap to the top or adding a more textured surface to improve ease of grip. 
+![Sketch]({{ site.baseurl }}/images/penhold (2).png)
+![Sketch]({{ site.baseurl }}/images/penhold (3).png)
+![Sketch]({{ site.baseurl }}/images/penhold (4).png)
+![Sketch]({{ site.baseurl }}/images/penhold (5).png)
+![Sketch]({{ site.baseurl }}/images/penhold (6).png)
+![Sketch]({{ site.baseurl }}/images/penhold (7).png)
+![Sketch]({{ site.baseurl }}/images/penhold (9).png)
+![Sketch]({{ site.baseurl }}/images/penhold (10).png)
+![Sketch]({{ site.baseurl }}/images/penhold (11).png)
+![Sketch]({{ site.baseurl }}/images/penhold (12).png)
+![Sketch]({{ site.baseurl }}/images/penhold (13).png)
+![Sketch]({{ site.baseurl }}/images/penhold (14).png)
+![Sketch]({{ site.baseurl }}/images/penhold (15).png)
+![Sketch]({{ site.baseurl }}/images/penhold (16).png)
+![Sketch]({{ site.baseurl }}/images/penhold (17).png)
+![Sketch]({{ site.baseurl }}/images/penhold (18).png)
+![Sketch]({{ site.baseurl }}/images/penhold (19).png)
+![Sketch]({{ site.baseurl }}/images/penhold (20).png)
+![Sketch]({{ site.baseurl }}/images/penhold (21).png)
+![Sketch]({{ site.baseurl }}/images/penhold (22).png)
+![Sketch]({{ site.baseurl }}/images/penhold (23).png)
+![Sketch]({{ site.baseurl }}/images/penhold (24).png)
+![Sketch]({{ site.baseurl }}/images/penhold (25).png)
+![Sketch]({{ site.baseurl }}/images/penhold (26).png)
+![Sketch]({{ site.baseurl }}/images/penhold (27).png)
+![Sketch]({{ site.baseurl }}/images/penhold (28).png)
+![Sketch]({{ site.baseurl }}/images/penhold (29).png)
+![Sketch]({{ site.baseurl }}/images/penhold (30).png)
+![Sketch]({{ site.baseurl }}/images/penhold (31).png)
+![Sketch]({{ site.baseurl }}/images/penhold (32).png)
 
 ## End Product
 
-![Extrude]({{ site.baseurl }}/images/bot8.png)
-
-![Extrude]({{ site.baseurl }}/images/bot9.png)
+![Sketch]({{ site.baseurl }}/images/penhold (33).png)
