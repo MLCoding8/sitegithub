@@ -49,4 +49,7 @@ Assembly + linking spring height with distance between rods
   <source src="{{ site.baseurl }}/images/Motion.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
-
+<video width="600" controls>
+  <source src="{{ site.baseurl }}/images/Motion2.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
