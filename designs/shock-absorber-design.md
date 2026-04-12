@@ -47,7 +47,7 @@ Assembly + linking spring height with distance between rods
 ![Sketch]({{ site.baseurl }}/images/ShockAbsorber (17).png)
 
 Shock Absorption Animation
-<div>
+
   <video width="600" controls>
     <source src="{{ site.baseurl }}/images/Motion.mp4" type="video/mp4">
     Your browser does not support the video tag.
@@ -59,4 +59,3 @@ Shock Absorber Adjustment Animation
     <source src="{{ site.baseurl }}/images/Motion2.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
-</div>
