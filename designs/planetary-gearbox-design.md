@@ -1,10 +1,10 @@
 ---
 layout: page
 title: ""
-permalink: /designs/shock-absorber-design  # Add this line!
+permalink: /designs/planetary-gearbox-design  # Add this line!
 ---
 
-### Shock Absorber 
+### Planetary Gearbox
 (SolidWorks)
 
 ## Design Process
