@@ -14,10 +14,12 @@ The design is a 4 part assembly that creates a planetary gearbox.
 The design process is done by importing standardized parts and then editting them to have the desired features. 
 Once done, I create a new part to hold the internal 3 gears relative to each other, then I make add a few bolts and bearings to bring it together. Mating all bodies properly is the final step. 
 
-Threaded Rod
+Standardized Parts
 ![Sketch]({{ site.baseurl }}/images/gearbox1 (1).png)
 ![Sketch]({{ site.baseurl }}/images/gearbox1 (2).png)
 ![Sketch]({{ site.baseurl }}/images/gearbox1 (3).png)
+
+Editing Parts
 ![Sketch]({{ site.baseurl }}/images/gearbox1 (4).png)
 ![Sketch]({{ site.baseurl }}/images/gearbox1 (5).png)
 ![Sketch]({{ site.baseurl }}/images/gearbox1 (6).png)
